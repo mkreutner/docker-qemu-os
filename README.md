@@ -86,8 +86,9 @@ just run haiku r1_beta5 x86_64
 
 ## Tested ISOs
 
-* :green_circle: Windows 11 24H2 EN INT x64 (windows.11_24h4_en_int.x64.iso)
 * :green_circle: Haiku R1 Beta5 x86_64 (haiku.r1_beta5.x86_64.iso)
+* :orange_circle: Windows 11 24H2 EN INT x64 (windows.11_24h4_en_int.x64.iso): Unable to install [See Sys Requirements for Win 11](https://aka.ms/WindowsSysReq)
+* :orange_circle: Windows 10 x64 (windows.10.x64.iso): Issue with display using RDP
 * :red_circle:   BeOS 5 Personal Edition x86 (beos.5.personal_edition.x86): Unbootable CD (WIP)
 
 ## Usefull links
