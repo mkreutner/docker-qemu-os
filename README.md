@@ -67,6 +67,23 @@ just run-with-media <OS_NAME> <VERSION> <ARCH> [CD_ISO_NAME=./iso/os/OS_NAME.VER
 | Haiku   | R1 Beta5 | x86_64  | haiku.r1_beta5.x86_64.iso |
 | MS SQL Server | 2019 | x64 | ms_sql_server.2019.x64.iso |
 
+## Daily use
+
+A little sample with 
+* OS: `Haiku` 
+* Version: `r1_beta5` 
+* Arch: `x86_64`
+* ISO: `./iso/os/haiku.r1_beta5.x86_64.iso`
+
+```bash
+# Build
+just build haiku r1_beta5 x86_64
+# Install mode
+just install haiku r1_beta5 x86_64
+# Run mode (without extra CD/Media)
+just run haiku r1_beta5 x86_64
+```
+
 ## Tested ISOs
 
 * :green_circle: Windows 11 24H2 EN INT x64 (windows.11_24h4_en_int.x64.iso)
