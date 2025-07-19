@@ -1,0 +1,10 @@
+# Project tree
+data/*
+!data/.gitkeep
+iso/os/*
+!iso/os/.gitkeep
+iso/software/*
+!iso/software/.gitkeep
+
+# Environment
+.env
